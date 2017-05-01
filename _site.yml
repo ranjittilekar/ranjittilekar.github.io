@@ -4,9 +4,13 @@ navbar:
   title: "My Website"
   left:
     - text: "Home"
+      icon: ion-home
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Projects"
+      icon: ion-compose
+      menu:
+        - text: "Kernal SVM"
+          href: Kernal.html
 output:
   html_document:
     theme: cosmo
